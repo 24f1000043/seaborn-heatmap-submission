@@ -66,7 +66,6 @@ ax = sns.heatmap(
 ax.set_title("Customer Engagement — Correlation Matrix", pad=16, fontsize=16)
 plt.xticks(rotation=45, ha="right")
 plt.yticks(rotation=0)
-plt.tight_layout()
 
 # Save: 8in * dpi must equal 512 pixels => dpi = 64
 plt.savefig("submission/chart.png", dpi=64)
