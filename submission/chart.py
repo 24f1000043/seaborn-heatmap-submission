@@ -69,7 +69,7 @@ plt.yticks(rotation=0)
 plt.tight_layout()
 
 # Save: 8in * dpi must equal 512 pixels => dpi = 64
-plt.savefig("submission/chart.png", dpi=64, bbox_inches="tight", pad_inches=0.08)
+plt.savefig("submission/chart.png", dpi=64)
 plt.close()
 
 if __name__ == "__main__":
